@@ -1,0 +1,17 @@
+platform:
+  service_name: youtube
+  key: $PLATFORM_KEY_YOUTUBE
+object_storage:
+  service_name: s3
+  endpoint_url: localhost:9000
+  aws_access_key_id: minio
+  aws_secret_access_key: miniosecretkey
+  bucket_name: store
+database:
+  service_name: postgresql
+  user: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  database: postgres
+  schema: public

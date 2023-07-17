@@ -1,0 +1,34 @@
+channels:
+  channel_id: id
+  title: snippet.title
+  description: snippet.description
+  username: snippet.customUrl
+  channel_created_at: snippet.publishedAt
+  playlist_with_all_videos: contentDetails.relatedPlaylists.uploads
+  view_count: statistics.viewCount
+  subscribers: statistics.subscriberCount
+  video_count: statistics.videoCount
+  country: snippet.country
+videos:
+  video_id: id
+  title: snippet.title
+  description: snippet.description
+  video_created_at: snippet.publishedAt
+  view_count: statistics.viewCount
+  like_count: statistics.likeCount
+  comment_count: statistics.commentCount
+playlists:
+  playlist_id: id
+  title: snippet.title
+  description: snippet.description
+  playlist_created_at: snippet.publishedAt
+  playlist_item_count: contentDetails.itemCount
+comments:
+  comment_id: id
+  video_id: snippet.videoId
+  text: snippet.textOriginal
+  author_channel_id: snippet.authorChannelId.value
+  likes: snippet.likeCount
+  comment_created_at: snippet.publishedAt
+  comment_updated_at: snippet.updatedAt
+
