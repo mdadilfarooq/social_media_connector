@@ -14,4 +14,4 @@ Usage
 The program will use the configuration data to connect to the social media platform, database, and object storage service. 
 It will then load additional configuration data from the object storage service, parse the social media data, and store it in the database.
 
-Installation: `pip install "git+https://github.com/BLEND360/COE_Socialmedia_Parser.git@dev"`
+Installation: `pip install "git+https://github.com/Mdadilfarooq/social_media_connector.git@main"`
